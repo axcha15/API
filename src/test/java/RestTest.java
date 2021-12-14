@@ -23,7 +23,7 @@ public class RestTest {
 
 
     @Test
-    public void TenFirstPhotosSunDate(){
+    public void tenFirstPhotosSunDate(){
 
         given().log().all().queryParam("api_key", apiKey)
                 .queryParam("sol", "1000")
@@ -41,7 +41,7 @@ public class RestTest {
     }
 
     @Test
-    public void TenFirstPhotosEarthDate(){
+    public void tenFirstPhotosEarthDate(){
 
         given().log().all().queryParam("api_key", apiKey)
                 .queryParam("earth_date", "2015-05-30")
